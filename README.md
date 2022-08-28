@@ -1,5 +1,5 @@
 # .github
-Implementation de l'architecture CQRS :
+Implementation de l'architecture CQRS avec Axon Framework :
 >Partie backend :==>BankingCommandBackend : Microservice Command 
 
                  ==>BankingQueryBackendMicroservice Query 
@@ -8,6 +8,8 @@ Implementation de l'architecture CQRS :
 on utilisant les technologies Suivant:
 
 Spring Boot 
+
+Axon Framework
 
 Angular
 
