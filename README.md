@@ -1,12 +1,18 @@
 # .github
 Implementation de l'architecture CQRS avec Spring Boot,Axon Framework,Rabbitmq ...
 
+Ce Projet  est cree sur github sous forme d'organization
+
 https://github.com/CQRS-Spring-rabbitmq-angular
+
+et comprend 5 repository qui represente 
 
 >Partie backend :==>BankingCommandBackend : Microservice Command 
 
                  ==>BankingQueryBackendMicroservice Query 
 >Partie Front End :BankingCQRS-Front Microservice implementer avec Angular 
+
+>Partie Commons Tools:eventlibs qui presente les class et les enumeration en commun entre les microservice
 
 on utilisant les technologies Suivant:
 
