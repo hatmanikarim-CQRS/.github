@@ -1,12 +1,30 @@
-## Hi there 👋
+Implementation de l'architecture CQRS avec Spring Boot,Axon Framework,Rabbitmq ...
 
-<!--
+https://github.com/CQRS-Spring-rabbitmq-angular
 
-**Here are some ideas to get you started:**
+Partie backend :==>BankingCommandBackend : Microservice Command
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+             ==>BankingQueryBackendMicroservice Query 
+Partie Front End :BankingCQRS-Front Microservice implementer avec Angular
+
+on utilisant les technologies Suivant:
+
+Spring Boot
+
+Axon Framework
+
+Angular
+
+Axon Framework
+
+postgres
+
+rabbitmq
+
+Docker
+
+Kubernetes
+
+Chaque repository contient un dockerfile ou on doit cree l'image afin de l'utiliser avec dockercompose ce projet est une implementation de l'archtecture CQRS ,vous pouvez utilise le docker-compose pour l'excute ou tous les microservice sont heberger sur DockerHub https://hub.docker.com/repository/docker/hatkar/banqueapp
+
+email hatmani_karim@hotmail.com
