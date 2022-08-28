@@ -1,10 +1,12 @@
 # .github
 Implementation de l'architecture CQRS :
->Partie backend :==>BankingCommandBackend : Microservice Command Backend 
-                 ==>BankingQueryBackendMicroservice Query Backend
+>Partie backend :==>BankingCommandBackend : Microservice Command 
+
+                 ==>BankingQueryBackendMicroservice Query 
 >Partie Front End :BankingCQRS-Front Microservice implementer avec Angular 
 
 on utilisant les technologies Suivant:
+
 Spring Boot 
 
 Angular
