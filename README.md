@@ -1,5 +1,5 @@
 # .github
-Implementation de l'architecture CQRS avec Axon Framework :
+Implementation de l'architecture CQRS avec Spring Boot,Axon Framework,Rabbitmq ...
 
 https://github.com/CQRS-Spring-rabbitmq-angular
 
