@@ -1,30 +1,41 @@
-Implementation de l'architecture CQRS avec Spring Boot,Axon Framework,Rabbitmq ...
+github.com/CQRS-Spring-rabbitmq-angular 🏦 (Projet personnel – GitHub)
+Développement d’une application bancaire distribuée implémentant l’architecture CQRS (Command Query Responsibility Segregation) avec Spring Boot et Axon Framework, garantissant une gestion efficace et scalable des transactions financières.
 
-https://github.com/CQRS-Spring-rabbitmq-angular
+✅ Technologies utilisées : Spring Boot, Axon Framework, Angular, PostgreSQL, RabbitMQ, Docker, Kubernetes
 
-Partie backend :==>BankingCommandBackend : Microservice Command
+✅ Architecture & Microservices :
 
-             ==>BankingQueryBackendMicroservice Query 
-Partie Front End :BankingCQRS-Front Microservice implementer avec Angular
+⚡ BankingCommandBackend : Microservice de gestion des commandes (création et mise à jour des comptes bancaires)
 
-on utilisant les technologies Suivant:
+🔍 BankingQueryBackend : Microservice de requêtage et lecture des données
 
-Spring Boot
+🎨 BankingCQRS-Front : Frontend développé avec Angular pour une interface utilisateur réactive
 
-Axon Framework
+✅ Déploiement & Conteneurisation :
 
-Angular
+Chaque microservice inclut un Dockerfile pour générer des images Docker
 
-Axon Framework
+Déploiement orchestré avec Docker Compose et Kubernetes
 
-postgres
+Microservices hébergés sur DockerHub : BanqueApp
 
-rabbitmq
+✅ Principales fonctionnalités :
 
-Docker
+📌 Gestion des comptes bancaires : création, mise à jour et suppression
 
-Kubernetes
+🔍 Consultation des opérations : historique des transactions, soldes en temps réel
 
-Chaque repository contient un dockerfile ou on doit cree l'image afin de l'utiliser avec dockercompose ce projet est une implementation de l'archtecture CQRS ,vous pouvez utilise le docker-compose pour l'excute ou tous les microservice sont heberger sur DockerHub https://hub.docker.com/repository/docker/hatkar/banqueapp
+🔄 Communication asynchrone : intégration de RabbitMQ pour la gestion des événements
+
+🎨 Interface utilisateur moderne avec composants interactifs : card-form-operation, card-list-operation, card-profile-account, list-account, new-account, secreen-add-operation, secreen-detail-account
+
+Ce projet met en avant mes compétences en architecture microservices, développement backend scalable, communication asynchrone et déploiement cloud-native.
+
+
+✅ Ce projet a ete cree dans une organization github qui contient  6 repository 
+
+Microservices hébergés sur DockerHub : BanqueApp
+
+pour executer ce projet juste run sur shell : docker compose up 
 
 email hatmani_karim@hotmail.com
