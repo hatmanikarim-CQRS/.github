@@ -1,4 +1,4 @@
-github.com/CQRS-Spring-rabbitmq-angular 🏦 (Projet personnel – GitHub)
+[github.com/CQRS-Spring-rabbitmq-angular](https://github.com/hatmanikarim-CQRS) 🏦 (Projet personnel – GitHub)
 Développement d’une application bancaire distribuée implémentant l’architecture CQRS (Command Query Responsibility Segregation) avec Spring Boot et Axon Framework, garantissant une gestion efficace et scalable des transactions financières.
 
 ✅ Technologies utilisées : Spring Boot, Axon Framework, Angular, PostgreSQL, RabbitMQ, Docker, Kubernetes
